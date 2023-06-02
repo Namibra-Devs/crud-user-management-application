@@ -1,6 +1,6 @@
 # CRUD User Management Application
 
-This is a simple CRUD (Create, Read, Update, Delete) user management application implemented in PHP. It provides basic functionalities for user registration, login, logout, change password, edit user information, and delete user.
+This is a simple CRUD (Create, Read, Update, Delete) user management application API implemented in PHP. It provides basic functionalities for user registration, login, logout, change password, edit user information, and delete user.
 
 ## Features
 

@@ -45,7 +45,9 @@ You can test the application's APIs using Postman. Here are some sample requests
 ## Register a new user as admin: 
 
 Method: POST
-Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/register.php.`
+
+Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/register.php`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - name: Mohammed Aminah
 - email: mohammedaminah@gmail .com
@@ -66,7 +68,9 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## Log in: 
 
 Method: POST
-Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/login.php`.
+
+Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/login.php`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - email: mohammedaminah@gmail.com
 - password: password541

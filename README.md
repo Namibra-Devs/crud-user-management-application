@@ -45,7 +45,9 @@ You can test the application's APIs using Postman. Here are some sample requests
 ## Register a new user as admin: 
 
 Method: POST
+
 Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/register.php.`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - name: Mohammed Aminah
 - email: mohammedaminah@gmail .com
@@ -55,7 +57,9 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## Register a new user: 
 
 Method: POST
-Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/register.php`.
+
+Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/register.php`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - name: Mohammed Aminah
 - email: mohammedaminah@gmail.com
@@ -64,7 +68,9 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## Log in: 
 
 Method: POST
-Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/login.php`.
+
+Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/login.php`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - email: mohammedaminah@gmail.com
 - password: password541
@@ -72,7 +78,9 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## Change password: 
 
 Method: POST
+
 Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/change_password.php`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - current_password: password541
 - new_password: password145
@@ -80,7 +88,9 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## Edit user: 
 
 Method: POST
+
 Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/edit_user.php?user_id=1`
+
 Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 - name: Mohammed Aisha
 - email: mohammedaisha24@gmail.com
@@ -88,11 +98,13 @@ Body: Select "x-www-form-urlencoded" and provide the following key-value pairs:
 ## View all users: 
 
 Method: GET
+
 Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/get_all_users`
 
 ## Delete user: 
 
 Method: GET
+
 Endpoint: `http://localhost/Namibra/crud-user-management-application/vendor/delete_user.php?user_id=1`
 
 ## Additional Information
